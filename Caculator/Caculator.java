@@ -42,7 +42,7 @@ class Caculate extends JFrame implements ActionListener,KeyListener{
     
    
     public Caculate(){
-    	super("é›»å“");
+    	super("“d‘ì");
     	
     	buttons.setLayout(new GridLayout(5,4));
     	
@@ -57,7 +57,7 @@ class Caculate extends JFrame implements ActionListener,KeyListener{
     	jbt[15] = new JButton("/");
     	jbt[16] = new JButton("=");
     	jbt[17] = new JButton("C");
-    	jbt[18] = new JButton("â†");
+    	jbt[18] = new JButton("©");
     	jbt[19] = new JButton("(-)");
     	
     	
@@ -169,7 +169,7 @@ class Caculate extends JFrame implements ActionListener,KeyListener{
 			result.setText(str_result);
 		}
 		
-		//delete(â†)Button
+		//delete(©)Button
 		if ((JButton)e.getSource() == jbt[18]){
 			
 			if (str_result.length()> 0) {
